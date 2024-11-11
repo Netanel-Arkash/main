@@ -1,6 +1,6 @@
 # Developer: Netanel-Arkash
 # date: 12/02/2024
-# purpose: This module is invoking MITM attack via ARP spoofing
+# purpose: This module is invoking ARP spoofing
 
 from scapy.all import Ether, ARP, srp, send, sendp
 import time
